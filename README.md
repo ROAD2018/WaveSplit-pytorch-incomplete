@@ -2,7 +2,7 @@
 need more time and computing resource for construction 
 
 # Attention !
-This is a _incomplete_ pytorch version WaveSplit implemention 
+This is a _incomplete_ pytorch version WaveSplit implemention [Wavesplit: End-to-End Speech Separation by Speaker Clustering](https://arxiv.org/abs/2002.08933)
 
 The whole model's param is ~65M, and the original version can not training one sample even in P40...
 So I added a encoder (conv1d layer) and a decoder to reduce the feature's lenght...
